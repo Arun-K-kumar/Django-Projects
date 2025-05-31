@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is shitty UI</h1>
+    {% if user.is_authenticated %}
+    <h1>Welcome , {{user.username}}</h1>
+    <button type="button"  ><a href="logout">Logout</a></button>
+    {% else %}
+    <h1>Welcome , People</h1>
+    <button type="button"><a href="login">Login</a></button>
+    {% endif %}
+    <br>
+    <br>
+    <br>
+    <h3>Register here</h3>
+    <h4><a href="register">Register</a></h4>
+    <br>
+    <br>
+    <br>
+    <p>-Authored by Arunkumar</p>
+</body>
+</html>
