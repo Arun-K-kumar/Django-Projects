@@ -32,7 +32,7 @@ git clone https://github.com/Arun-K-kumar/Sign_up_in_Project.git
 cd Sign_up_in_Project
 ```
 
-### 2. Create a Virtual Environment
+### 2. Create a Virtual Environment (if necessary)
 
 ```bash
 python -m venv venv
